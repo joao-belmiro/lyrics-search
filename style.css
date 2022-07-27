@@ -138,10 +138,64 @@ form button {
 
 .lyrics-container {
   color: white;
-  opacity: .4;
+  opacity: .9;
 }
 
 .lyrics {
+  text-align: center;
   margin-top: 20px;
   line-height: 1.5;
+}
+
+
+.permission-info a {
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #8d56fd;
+}
+
+.permission-info a:hover {
+  background-color: #8d56fd;
+  border: none;
+}
+
+.artist-link {
+  font-size: 25px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: start;
+  color: #8d56fd;
+  width: 100%;
+  height: 20px;
+}
+.artist-link:hover {
+  opacity: .8;  
+}
+.song-header {
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  justify-content: start;
+  align-items:  flex-start;
+}
+
+.song-title {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.music-preview {
+  width: 100%;
+  height: 100px;
+}
+
+.disclaimer-links {
+  display: flex;
+  justify-content: center ;
+  column-gap: 32px;
 }
