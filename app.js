@@ -2,7 +2,7 @@ const form = document.querySelector("#form");
 const searchInput = document.querySelector("#search");
 const songsContainer = document.querySelector("#songs-container");
 const prevAndNextContainer = document.querySelector("#prev-and-next-container");
-const permissionInfo = document.getElementById("permission-info");
+const permissionInfo = document.getElementById("disclaimer-info");
 
 const baseUrl = `https://api.lyrics.ovh`;
 
